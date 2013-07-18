@@ -26,11 +26,14 @@
       "/home/bethanyr/examples/ticketee/app/helpers/application_helper.rb": [
         1,
         1,
-        14,
-        14,
-        14,
+        20,
+        20,
+        20,
         null,
         null,
+        null,
+        1,
+        57,
         null,
         null
       ],
@@ -47,7 +50,7 @@
         1,
         1,
         1,
-        28,
+        37,
         null,
         1,
         2,
@@ -85,7 +88,7 @@
         null,
         1,
         1,
-        20,
+        26,
         null,
         1,
         null,
@@ -172,6 +175,6 @@
         null
       ]
     },
-    "timestamp": 1374123248
+    "timestamp": 1374153294
   }
 }
