@@ -9,6 +9,9 @@ gem 'dynamic_form', '1.1.4'
 
 gem 'sqlite3'
 
+#simplecov --> installed as part of class (not in book)
+gem 'simplecov', :require => false, :group => :test
+
 
 # Gems used only for assets and not required
 # in production environments by default.
