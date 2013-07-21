@@ -43,7 +43,7 @@
         null,
         null,
         1,
-        203,
+        199,
         null,
         null
       ],
@@ -129,7 +129,7 @@
         1,
         1,
         1,
-        60,
+        56,
         null,
         1,
         2,
@@ -168,10 +168,6 @@
         1,
         1,
         25,
-        12,
-        null,
-        13,
-        null,
         null,
         4,
         null,
@@ -188,9 +184,13 @@
         null,
         1,
         1,
-        13,
+        37,
         null,
         1,
+        null,
+        1,
+        81,
+        null,
         null
       ],
       "/home/bethanyr/examples/ticketee/app/controllers/tickets_controller.rb": [
@@ -264,6 +264,6 @@
         null
       ]
     },
-    "timestamp": 1374419910
+    "timestamp": 1374420595
   }
 }
