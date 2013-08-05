@@ -3,5 +3,6 @@ class Ticket < ActiveRecord::Base
   belongs_to :user
   validates :title, :presence => true
   validates :description, :presence => true, :length => { :minimum => 10 }
-  attr_accessible :description, :title
+  attr_accessible :description, :title, :asset
+  has_attached_file :asset
 end
