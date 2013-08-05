@@ -270,6 +270,7 @@
         null,
         1,
         5,
+        20,
         null,
         1,
         5,
@@ -348,6 +349,7 @@
         1,
         1,
         1,
+        1,
         null
       ],
       "/home/bethanyr/examples/ticketee/app/controllers/users_controller.rb": [
@@ -371,8 +373,16 @@
         null,
         null,
         null
+      ],
+      "/home/bethanyr/examples/ticketee/app/models/asset.rb": [
+        1,
+        null,
+        1,
+        1,
+        null,
+        null
       ]
     },
-    "timestamp": 1375729884
+    "timestamp": 1375733589
   }
 }

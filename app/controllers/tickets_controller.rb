@@ -8,6 +8,7 @@ class TicketsController < ApplicationController
 
 	def new
 		@ticket = @project.tickets.build
+		3.times { @ticket.assets.build}
 	end
 	def create
 		@ticket = @project.tickets.build(params[:ticket])
@@ -25,7 +26,7 @@ class TicketsController < ApplicationController
 	end
 
 	def edit
-		
+
 	end
 
 	def update
@@ -43,7 +44,7 @@ class TicketsController < ApplicationController
 		flash[:notice] = "Ticket has been deleted."
 		redirect_to @project
 	end
-	
+
 	private
 	  def find_project
 	  	@project = Project.for(current_user).find(params[:project_id])
@@ -75,5 +76,5 @@ class TicketsController < ApplicationController
 	  		redirect_to @project
 	  	end
 	  end
-	  
+
 end

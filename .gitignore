@@ -16,3 +16,7 @@
 
 # from coffee-rails-source-maps
 public/source_maps/
+
+/public/system
+
+/coverage
