@@ -7,7 +7,7 @@ Ticketee::Application.routes.draw do
   devise_for :users, :controllers => { :registrations => "registrations"}
 
   Ticketee::Application.routes.draw do
- 
+
 
   get "users/confirmation"
 
@@ -29,6 +29,8 @@ Ticketee::Application.routes.draw do
       resources :permissions
     end
   end
+
+  resources :files
 
   put '/admin/users/:user_id/permissions', :to => 'admin/permissions#update', :as => :update_user_permissions
   # The priority is based upon order of creation:

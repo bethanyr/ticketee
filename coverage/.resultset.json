@@ -69,6 +69,10 @@
         1,
         null
       ],
+      "/home/bethanyr/examples/ticketee/app/helpers/files_helper.rb": [
+        1,
+        null
+      ],
       "/home/bethanyr/examples/ticketee/app/helpers/projects_helper.rb": [
         1,
         null
@@ -177,6 +181,23 @@
         1,
         1,
         17,
+        null,
+        null
+      ],
+      "/home/bethanyr/examples/ticketee/app/controllers/files_controller.rb": [
+        1,
+        1,
+        null,
+        1,
+        2,
+        2,
+        1,
+        null,
+        null,
+        null,
+        1,
+        1,
+        null,
         null,
         null
       ],
@@ -363,11 +384,11 @@
         1,
         null,
         1,
-        78,
-        121,
+        80,
+        122,
         null,
         null,
-        40,
+        41,
         null,
         null,
         null,
@@ -379,10 +400,10 @@
         null,
         1,
         1,
-        null,
+        1,
         null
       ]
     },
-    "timestamp": 1375733589
+    "timestamp": 1375735599
   }
 }
