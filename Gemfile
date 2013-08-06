@@ -7,7 +7,7 @@ gem 'rails', '3.2.13'
 
 gem 'dynamic_form', '1.1.4'
 
-gem 'sqlite3'
+
 
 #simplecov --> installed as part of class (not in book)
 gem 'simplecov', :require => false, :group => :test
@@ -43,6 +43,11 @@ gem 'jquery-rails'
 # gem 'debugger'
 group :test, :development do
 	gem 'rspec-rails', '~> 2.11'
+  gem 'sqlite3'
+end
+
+group :production do
+  gem 'pg'
 end
 
 group :development do
