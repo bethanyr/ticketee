@@ -46,6 +46,7 @@ gem 'jquery-rails'
 group :test, :development do
 	gem 'rspec-rails', '~> 2.11'
   gem 'sqlite3'
+  gem 'foreman'
 end
 
 group :production do

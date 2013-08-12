@@ -1,6 +1,0 @@
-This project is for Chapter 3 of RIA book, for CodeFellows Bootcamp.
-
-Ruby version: 2.0.0p247
-Rails version: 3.1.2
-
-author: Bethany Rentz (http://github/bethanyr)
